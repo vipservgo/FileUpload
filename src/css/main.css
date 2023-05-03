@@ -1,0 +1,109 @@
+body{
+	margin: 0px;
+	background: #F5F5F5;
+	font-family: Tahoma;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+.card{
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	transition:all 0.3s cubic-bezier(0.25,0.8,0.25,1);
+}
+.card:hover{
+	box-shadow: 0 3px 7px rgba(0,0,0,0.25), 0 3px 3px rgba(0,0,0,0.22);
+}
+.paddLeft{
+	margin-left: 8px;
+}
+.aboutTxt{
+	font-size: 0.9em;
+	margin-top: 12px;
+	margin-left: 5px;
+	position: absolute;
+	float: left;
+}
+.infoTxt{
+	font-size: 0.9em;
+	margin-top: 12px;
+	margin-right: 5px;
+	float: right;
+}
+.nameTxt{
+	margin-top: 8px;
+	margin-left: 5px;
+}
+.fileName{
+	color: #000;
+	width:100%;
+	height:40px;
+	background: #FFFDE7;
+	border:1px solid #E0E0E0;
+}
+.topNav{
+	width:100%;
+	height:44px;
+	background: #FAFAFA;
+	color: #000;
+	box-shadow: 0 0 4px #8a8a8a;
+}
+.statLogo{
+	margin-top: 6px;
+	float: right;
+	margin-right: 8px;
+	margin-left: 8px;
+}
+.mainBody{
+	width:95%;
+	margin: auto;
+}
+.uploadBtn{
+	border: 0px;
+	border-radius: 3px;
+	background: #0277BD;
+	padding: 3px;
+	color: #FFF;
+	width: 80px;
+}
+.uploadBtn:hover{
+	background: #01579B;
+}
+.typeBox{
+	width:280px;
+	height: 280px;
+	background: blue;
+	margin-left: 30px;
+	margin-top: 15px;
+	border-radius: 3px;
+	float:left;
+	cursor: pointer;
+}
+.typeTxt{
+	color: #FFF;
+	font-size: 1.9em;
+	margin-left: 85px;
+	margin-top: 115px;
+}
+.uploadBox{
+	padding: 15px;
+	min-width:100px;
+	height:5px;
+	display: inline-block
+	margin-bottom:5px;
+}
+.delBtn{
+	float:right;
+	margin-top:-22px;
+	margin-right:5px;
+}
+.textInp{
+	border: 0px;
+	border-bottom: 2px solid #616161;
+	height: 25px;
+	padding:5px;
+}
+.textInp:focus{
+	outline: 0;
+	border-bottom: 2px solid #212121;
+}
